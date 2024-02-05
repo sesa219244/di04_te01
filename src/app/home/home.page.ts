@@ -42,37 +42,37 @@ export class HomePage implements OnInit {
 
   tipoDeChartSeleccionado: string = "bar-chart";
 
-  // Atributos para generar la consulta REST
-  // Están almacenados en los ficheros de la carpeta enviroments
-  apiKey: string = environment.apiKey;
-  apiUrl: string = environment.apiUrl;
 
   constructor(public gestionServicioApi: MyserviceService) {}
 
+
   ngOnInit() {
-    //Mediante el array de categorias, llamamos a la API una vez por cada categoría.
+    // Mediante el array de categorias, llamamos a la API una vez por cada categoría.
     this.categorias.forEach(miCategoria => {
       this.gestionServicioApi.cargarCategoria(miCategoria);
     });
   }
 
+
   segmentChanged(event: any) {
-    //Recogemos el tipo de chart (bar-chart, line-chart o pie-chart), mediante event.detail.value
+    // Recogemos el tipo de chart (bar-chart, line-chart o pie-chart), mediante event.detail.value
     this.tipoDeChartSeleccionado = event.detail.value;
 
-    //En caso de bar-chart, realizamos una llamada al api por cada categoria que tenemos.
+    // En caso de bar-chart, realizamos una llamada al api por cada categoria que tenemos.
     if (this.tipoDeChartSeleccionado == "bar-chart") {
       this.categorias.forEach(categoria => {
         this.gestionServicioApi.cargarCategoria(categoria);
       });
     }
-    //En caso de line-chart, realizamos una llamada al api por cada categoria que tenemos.
+
+    // En caso de line-chart, realizamos una llamada al api por cada categoria que tenemos.
     if (this.tipoDeChartSeleccionado == "line-chart"){
       this.categorias.forEach(categoria => {
         this.gestionServicioApi.cargarCategoria(categoria);
       });
     }
-    //En caso de pie-chart, realizamos una llamada al api por cada categoria que tenemos.
+
+    // En caso de pie-chart, realizamos una llamada al api por cada categoria que tenemos.
     if (this.tipoDeChartSeleccionado == "pie-chart"){
       this.categorias.forEach(categoria => {
         this.gestionServicioApi.cargarCategoria(categoria);

@@ -11,19 +11,21 @@ export class LineChartComponent  implements OnInit {
 
   public chart!: Chart;
 
+  // Creamos las variables que recibiremos por parámetros
   @Input() tipoDeChartSeleccionado: string = "";
   @Input() categorias: string[] = [];
   @Input() datosCategorias: number[] = [];
 
   constructor(private el: ElementRef, private renderer: Renderer2, private gestionServicioApi: MyserviceService) {}
 
+
   ngOnInit(): void {
     this.inicializarChart();
     this.actualizarChart();
   }
 
-  inicializarChart() {
 
+  inicializarChart() {
     // Datos
     let data = null;
 
@@ -52,7 +54,7 @@ export class LineChartComponent  implements OnInit {
     };
 
 
-    // Creamos la gráfica
+    // Creamos un canvas
     const canvas = this.renderer.createElement('canvas');
     this.renderer.setAttribute(canvas, 'id', 'LineChart');
 
@@ -89,14 +91,15 @@ export class LineChartComponent  implements OnInit {
     this.chart.canvas.height = 100;
   }
 
+
   actualizarChart() {
-    //Nos suscribimos al observable de tipo BehaviorSubject y cuando este emita un valor, recibiremos una notificación con el nuevo valor.
+    // Nos suscribimos al observable de tipo BehaviorSubject y cuando este emita un valor, recibiremos una notificación con el nuevo valor.
     this.gestionServicioApi.datos$.subscribe((datos) => {
       if (datos != undefined) {
-        //Cuando recibimos un valor actualizamos los arrays de nombre y valor de categorias, para guardar el nombre y su valor en las mismas posiciones del array.
+        // Cuando recibimos un valor actualizamos los arrays de nombre y valor de categorias, para guardar el nombre y su valor en las mismas posiciones del array.
         this.categorias.push(datos.categoria);
         this.datosCategorias.push(datos.totalResults);
-        //Actualizamos el chart con los nuevos valores cada vez que recibimos un valor.
+        // Actualizamos el chart con los nuevos valores cada vez que recibimos un valor.
         this.chart.update();
       }
     });
