@@ -1,5 +1,5 @@
 import { Component, ElementRef, Input, OnInit, Renderer2 } from '@angular/core';
-import { Chart, ChartType } from 'chart.js';
+import { Chart, ChartType } from 'chart.js/auto';
 import { MyserviceService } from 'src/app/services/myservice.service';
 
 @Component({

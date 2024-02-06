@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 70,
+  "articles": [
+      {
+          "source": {
+              "id": null,
+              "name": "New York Post"
+          },
+          "author": "Ronny Reyes",
+          "title": "King Charles diagnosed with cancer less than 15 months after taking the throne, Buckingham Palace reveals - New York Post ",
+          "description": "“During The King’s recent hospital procedure for benign prostate enlargement, has been diagnosed with cancer just a separate issue of concern was noted. Subsequent diagnostic tests have ident…",
+          "url": "https://nypost.com/2024/02/05/news/king-charles-diagnosed-with-cancer-palace-reveals/",
+          "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/02/king-charles-cancer-comp-2.jpg?quality=75&strip=all&w=1024",
+          "publishedAt": "2024-02-05T18:09:00Z",
+          "content": "King Charles III has been diagnosed with cancer less than 15 months after ascending to the throne, Buckingham Palace announced Monday.\r\nDuring The Kings recent hospital procedure for benign prostate … [+2028 chars]"
+      },
+      {
+          "source": {
+              "id": "cnn",
+              "name": "CNN"
+          },
+          "author": "Jenna Schnuer",
+          "title": "Researchers think they have the key to why tardigrades can survive almost anything - CNN",
+          "description": "Tardigrades, or water bears, thrive in some of Earth’s harshest environments. Now, researchers say they have unlocked the survival mechanism of the tiny creature.",
+          "url": "https://www.cnn.com/2024/02/05/world/tardigrade-water-bear-survival-mechanism-scn/index.html",
+          "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/ebn5ar.jpg?c=16x9&q=w_800,c_fill",
+          "publishedAt": "2024-02-05T17:15:00Z",
+          "content": "Sign up for CNNs Wonder Theory science newsletter. Explore the universe with news on fascinating discoveries, scientific advancements and more.\r\nTardigrades, also known as water bears, commonly survi… [+5569 chars]"
+      },
+      {
+          "source": {
+              "id": "cnn",
+              "name": "CNN"
+          },
+          "author": "Sandee LaMotte",
+          "title": "You can fight existing signs of dementia with a healthy lifestyle, a new study suggests - CNN",
+          "description": "Can healthy habits protect your cognition as you age, even if you have clinical signs of Alzheimer’s or other types of dementia? A new study said yes.",
+          "url": "https://www.cnn.com/2024/02/05/health/healthy-living-dementia-study-wellness/index.html",
+          "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1359616274.jpg?c=16x9&q=w_800,c_fill",
+          "publishedAt": "2024-02-05T16:00:00Z",
+          "content": "Living a healthy lifestyle with a focus on a nutritious diet, regular exercise, minimum alcohol consumption and other healthy habits can help keep your brain sharp into old age, doctors say.\r\nBut wha… [+5360 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Endpoints News"
+          },
+          "author": "Andrew Dunn",
+          "title": "Beam Therapeutics CEO on CRISPR’s future, sickle cell research: The Endpoints Slack interview - Endpoints News",
+          "description": "Even with last year's landmark approvals for genetic medicines in sickle cell disease, John Evans is convinced his startup can push the field further. Beam Therapeutics started 2024 by announcing it had dosed the first sickle cell patient with its base-editin…",
+          "url": "https://endpts.com/beam-therapeutics-ceo-on-crisprs-future-sickle-cell-research-the-endpoints-slack-interview/",
+          "urlToImage": "https://endpts.com/wp-content/uploads/2024/02/john_evans_slack_interview_social-1.jpg",
+          "publishedAt": "2024-02-05T15:56:00Z",
+          "content": "Even with last year’s land­mark ap­provals for ge­net­ic med­i­cines in sick­le cell dis­ease, John Evans is con­vinced his start­up can push the field fur­ther.\r\nBeam Ther­a­peu­tics start­ed 2024 b… [+647 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "WLWT Cincinnati"
+          },
+          "author": "Fletcher Keel",
+          "title": "Ohio health officials warn of potential measles exposure at CVG - WLWT Cincinnati",
+          "description": "The Ohio Department of Health says passengers at Cincinnati/Northern Kentucky International Airport may have been exposed to measles last week.",
+          "url": "https://www.wlwt.com/article/ohio-measles-cincinnati-exposure-cvg-montgomery-county/46648780",
+          "urlToImage": "https://kubrick.htvapps.com/htv-prod-media.s3.amazonaws.com/images/cvg-travel-6585038c5cb29.png?crop=1.00xw:0.991xh;0,0&resize=1200:*",
+          "publishedAt": "2024-02-05T15:52:00Z",
+          "content": "HEBRON, Ky. —The Ohio Department of Health says passengers at Cincinnati/Northern Kentucky International Airport may have been exposed to measles last week.\r\nODH says passengers in Terminal A at CVG … [+1238 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Study Finds"
+          },
+          "author": "Dr. Faith Coleman",
+          "title": "Young adults are having heart attacks more often -- What's causing it? - Study Finds",
+          "description": "StudyFinds' Dr. Faith Coleman breaks down the alarming trend of increasing heart issues among younger Americans and what's causing it.",
+          "url": "https://studyfinds.org/heart-attacks-young-adults/",
+          "urlToImage": "https://studyfinds.org/wp-content/uploads/2019/06/AdobeStock_98323647.jpeg",
+          "publishedAt": "2024-02-05T15:32:25Z",
+          "content": "Heart disease is the number one cause of death in the United States. In the last few decades, though, with advances in the prevention and management of coronary artery disease, the occurrence of hear… [+4410 chars]"
+      },
+      {
+          "source": {
+              "id": "cnn",
+              "name": "CNN"
+          },
+          "author": "Jocelyn Solis-Moreira",
+          "title": "How long does food poisoning last? - CNN",
+          "description": "The time it takes to recover from food poisoning is different for everyone, but there are ways to make the recovery process go smoother.",
+          "url": "https://www.cnn.com/2024/02/05/health/how-long-food-poisoning-lasts-wellness/index.html",
+          "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/240130120602-woman-sick-toilet-bathroom-stock.jpg?c=16x9&q=w_800,c_fill",
+          "publishedAt": "2024-02-05T15:31:00Z",
+          "content": "Most food poisoning cases get better after a few days of rest at home\r\nIt takes time for your body to flush out the toxins so stay hydrated\r\nCertain groups should see a doctor immediately for food po… [+6312 chars]"
+      },
+      {
+          "source": {
+              "id": "ars-technica",
+              "name": "Ars Technica"
+          },
+          "author": "Beth Mole",
+          "title": "A puzzling illness paralyzed US kids every other year—until it didn't - Ars Technica",
+          "description": "Researchers braced for a surge in 2022 that never came—and no one knows why.",
+          "url": "https://arstechnica.com/science/2024/02/mystery-of-tragic-paralyzing-illness-in-us-kids-deepens-as-case-trend-vanishes/",
+          "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/02/18259-760x380.jpg",
+          "publishedAt": "2024-02-05T15:06:29Z",
+          "content": "Enlarge/ This thin section transmission electron microscopic (TEM) image reveals numerous spheroid-shaped Enterovirus-D68 (EV-D68) virions.\r\n16\r\n2022 was the bad year that wasn'tat least for a myster… [+3976 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "GhanaWeb"
+          },
+          "author": null,
+          "title": "Man in anguish after suffering prolonged erection for two straight days - GhanaWeb",
+          "description": "A 42-year-old man, who is a sickle cell patient, is experiencing a rare and distressing condition called priapism, which causes his penis to remain erect for two days without any sexual stimulation.",
+          "url": "https://www.ghanaweb.com/GhanaHomePage/NewsArchive/Man-in-anguish-after-suffering-prolonged-erection-for-two-straight-days-1915163",
+          "urlToImage": "https://cdn.ghanaweb.com/imagelib/pics/111/11190379.jpg",
+          "publishedAt": "2024-02-05T14:40:51Z",
+          "content": "A 42-year-old man, who is a sickle cell patient, is experiencing a rare and distressing condition called priapism, which causes his penis to remain erect for two days without any sexual stimulation.\r… [+2156 chars]"
+      },
+      {
+          "source": {
+              "id": "cnn",
+              "name": "CNN"
+          },
+          "author": "Deidre McPhillips",
+          "title": "Respiratory virus season in the US isn’t over yet - CNN",
+          "description": "After a few weeks of decline, some measures show that flu activity is starting to pick up again and respiratory virus levels remain high overall in the United States.",
+          "url": "https://www.cnn.com/2024/02/05/health/respiratory-virus-season-in-the-us-isnt-over-yet/index.html",
+          "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-1605151300.jpeg?c=16x9&q=w_800,c_fill",
+          "publishedAt": "2024-02-05T14:30:00Z",
+          "content": "After a few weeks of decline, some measures show that flu activity is starting to pick up again and respiratory virus levels remain high overall in the United States.\r\nDuring the week ending January … [+3511 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "menshealth.com"
+          },
+          "author": "Emily Shiffer",
+          "title": "This Guy Got Ripped in 15 Weeks with a Plan that Fit His Life - Men's Health",
+          "description": "Graeme Thomas Sanders found a way to transform his eating and his body but still work within his schedule. He lost 34 pounds and got ripped.",
+          "url": "https://www.menshealth.com/health/a46355459/weight-loss-transformation-graeme-sanders/",
+          "urlToImage": "https://hips.hearstapps.com/hmg-prod/images/mh-1-19-transformation-social-2-65ab0233b802d.jpg?crop=1.00xw:1.00xh;0,0&resize=1200:*",
+          "publishedAt": "2024-02-05T14:13:31Z",
+          "content": "Graeme Thomas Sanders, 46, had transformed his body in the past, but now wanted a program that would stick. In his own words, heres how the actor and teaching assistant in London and Sussex found a w… [+7769 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "OregonLive"
+          },
+          "author": "Dr. Keith Roach",
+          "title": "Dear Doctor: Can daily use of proton-pump inhibitor contribute to dementia and neuropathy? - OregonLive",
+          "description": "Patient also developed AFib, which complicates things",
+          "url": "https://www.oregonlive.com/advice/2024/02/dear-doctor-can-daily-use-of-proton-pump-inhibitor-contribute-to-dementia-and-neuropathy.html",
+          "urlToImage": "https://www.oregonlive.com/resizer/2FPEEZ_Lax0gzZFGrBv-kURVf60=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/XO2IEWUVDNDF7JODY2R2VK6RJE.jpeg",
+          "publishedAt": "2024-02-05T14:00:00Z",
+          "content": "DEAR DR. ROACH: I am a retired male over 65 and a former occasional cigar smoker (I quit 15 years ago) as well as a former drinker (I quit seven years ago). About 15 years ago, I was diagnosed with B… [+3095 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "The Seattle Times"
+          },
+          "author": "Carrie Dennett",
+          "title": "Should you change your eating habits based on a Netflix 'documentary'? - The Seattle Times",
+          "description": "Our columnist shares how to be more responsive, rather than reactive, when deciding whether to change your eating habits after seeing \"You Are What You Eat.\"",
+          "url": "https://www.seattletimes.com/life/wellness/should-you-change-your-eating-habits-based-on-a-netflix-documentary/",
+          "urlToImage": "https://images.seattletimes.com/wp-content/uploads/2024/01/01292024_TZR_Netflix-You_Are_What_You_Eat_tzr_16562.jpg?d=1200x630",
+          "publishedAt": "2024-02-05T14:00:00Z",
+          "content": "In last weeks column, I dug into the Netflix documentary You Are What You Eat. This week, I want to talk about how to be responsive, rather than reactive, in deciding whether to change your eating ha… [+3244 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "[Removed]"
+          },
+          "author": null,
+          "title": "[Removed]",
+          "description": "[Removed]",
+          "url": "https://removed.com",
+          "urlToImage": null,
+          "publishedAt": "1970-01-01T00:00:00Z",
+          "content": "[Removed]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "SciTechDaily"
+          },
+          "author": null,
+          "title": "Scientists Reverse Alzheimer's Memory Loss by Repairing Damaged Synapses - SciTechDaily",
+          "description": "A groundbreaking study presents a novel Alzheimer’s treatment strategy focusing on memory restoration through the repair of damaged synapses, leveraging the critical role of the KIBRA protein. This approach shows promise in reversing memory loss without direc…",
+          "url": "https://scitechdaily.com/scientists-reverse-alzheimers-memory-loss-by-repairing-damaged-synapses/",
+          "urlToImage": "https://scitechdaily.com/images/KIBRA-Dependent-Recovery-Functional-Plasticity-Synapses-Tau-Induced-Toxicity-Brain-scaled.jpg",
+          "publishedAt": "2024-02-05T13:39:49Z",
+          "content": "Kauwe, Pareja-Navarro et al. identify a KIBRA-dependent mechanism to repair the plasticity at synapses that is dysregulated in neurons underlying the loss of memory in tauopathy. The art depicts the … [+4895 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Wecb.fm"
+          },
+          "author": "Mary Aldreen",
+          "title": "Lose Weight Simply By Walking: What Is The Ideal Distance To Walk Each Day For Amazing Results? - WECB",
+          "description": "Hey there, fellow entertainment and tech enthusiasts! It’s Sarah Jensen here, coming to you from the vibrant city of Austin, Texas. While I usually dive",
+          "url": "https://www.wecb.fm/lose-weight-simply-by-walking-what-is-the-ideal-distance-to-walk-each-day-for-amazing-results/",
+          "urlToImage": "https://www.wecb.fm/wp-content/uploads/2024/02/Weight.jpeg",
+          "publishedAt": "2024-02-05T13:00:00Z",
+          "content": "Hey there, fellow entertainment and tech enthusiasts! Its Sarah Jensen here, coming to you from the vibrant city of Austin, Texas. While I usually dive into the latest movies, TV shows, and cutting-e… [+3827 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "[Removed]"
+          },
+          "author": null,
+          "title": "[Removed]",
+          "description": "[Removed]",
+          "url": "https://removed.com",
+          "urlToImage": null,
+          "publishedAt": "1970-01-01T00:00:00Z",
+          "content": "[Removed]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "WPXI Pittsburgh"
+          },
+          "author": "WPXI.com News Staff",
+          "title": "Popular drug used for weight loss working wonders for some, causing serious side effects for others - WPXI Pittsburgh",
+          "description": "The popularity of Ozempic has skyrocketed over the past few years, fueled in part by celebrities showing off slimmer physiques and sleek cheekbones.",
+          "url": "https://www.wpxi.com/news/local/popular-drug-used-weight-loss-working-wonders-some-causing-serious-side-effects-others/BH3EIFDMLBEZ3DEFFJ75QJUVCY/",
+          "urlToImage": "https://cmg-cmg-tv-10080-prod.cdn.arcpublishing.com/resizer/_tsWEskSljyrriqJfSp0J4pcyWg=/1440x810/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/cmg/FMLUHY7USD5OHU3JA4XZLXMGXE.jpg",
+          "publishedAt": "2024-02-05T11:56:07Z",
+          "content": "PITTSBURGH — The popularity of Ozempic has skyrocketed over the past few years, fueled in part by celebrities showing off slimmer physiques and sleek cheekbones.\r\nThe results can be astounding, with … [+437 chars]"
+      },
+      {
+          "source": {
+              "id": "the-washington-post",
+              "name": "The Washington Post"
+          },
+          "author": "Trisha Pasricha, MD",
+          "title": "Why do hemorrhoids happen? What to know about causes and treatments. - The Washington Post",
+          "description": "To prevent painful hemorrhoids, try eating a fiber-rich diet and spending minimal time on the toilet",
+          "url": "https://www.washingtonpost.com/wellness/2024/02/05/what-causes-hemorrhoids-treatment/",
+          "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/LCQ3BPF6BBAQTBVB5CMBZCYGZI.gif&w=1440",
+          "publishedAt": "2024-02-05T11:34:33Z",
+          "content": "Q: Ive got hemorrhoids. What are they exactly? How can I avoid getting them again?\r\nA: Everyone has hemorrhoids. They are a normal part of our bodies: Hemorrhoids are simply cushions of veins along t… [+7534 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "NBC4 WCMH-TV"
+          },
+          "author": "David Rees",
+          "title": "Columbus health officials warn of syphilis outbreak: where to get tested - NBC4 WCMH-TV",
+          "description": "COLUMBUS, Ohio (WCMH) — Central Ohio health officials are warning of an increase in syphilis cases, a trend mirroring a rise of infections nationwide. Columbus Public Health is raising awareness about the local outbreak and is encouraging at-risk individuals …",
+          "url": "https://www.nbc4i.com/news/local-news/central-ohio-news/columbus-health-officials-warn-of-syphilis-outbreak-where-to-get-tested/",
+          "urlToImage": "https://www.nbc4i.com/wp-content/uploads/sites/18/2023/07/645d31b947b359.34139295.jpeg?w=1280",
+          "publishedAt": "2024-02-05T11:30:00Z",
+          "content": "COLUMBUS, Ohio (WCMH) — Central Ohio health officials are warning of an increase in syphilis cases, a trend mirroring a rise of infections nationwide. \r\nColumbus Public Health is raising awareness ab… [+3886 chars]"
+      }
+  ]
+}

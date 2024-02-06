@@ -1,0 +1,266 @@
+{
+  "status": "ok",
+  "totalResults": 67,
+  "articles": [
+      {
+          "source": {
+              "id": "usa-today",
+              "name": "USA Today"
+          },
+          "author": "USA TODAY",
+          "title": "Green energy, fact-checked: Are wind turbines bad, solar panels toxic? - USA TODAY",
+          "description": null,
+          "url": "https://www.usatoday.com/story/news/investigations/2024/02/04/green-energy-fact-checked/72390472007/",
+          "urlToImage": null,
+          "publishedAt": "2024-02-05T18:21:58Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": "the-washington-post",
+              "name": "The Washington Post"
+          },
+          "author": "Aaron Gregg",
+          "title": "Boeing finds new flaws in 737 MAX fuselages - The Washington Post",
+          "description": "Boeing plans to rework 50 jets after misdrilled holes were discovered during the production process.",
+          "url": "https://www.washingtonpost.com/business/2024/02/05/boeing-737-max/",
+          "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/VCIN4OJER5SPVJ2HKRKG3SMHEU.jpg&w=1440",
+          "publishedAt": "2024-02-05T17:44:00Z",
+          "content": "Boeing plans to rework dozens of 737 Max jets after misdrilled holes were discovered on some fuselages, marking the latest production problem for the aircraft.\r\nIn a memo to employees, Boeing commerc… [+1785 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Teslarati"
+          },
+          "author": "https://www.facebook.com/sim.alva",
+          "title": "Over 5.8k Tesla investors representing $4.1 billion are speaking out in support of Elon Musk - TESLARATI",
+          "description": "Thousands of retail Tesla (NASDAQ:TSLA) investors have banded together to express their support of CEO Elon Musk’s 2018 compensation plan.",
+          "url": "https://www.teslarati.com/tesla-investors-4-1-billion-speaks-out-support-of-elon-musk/",
+          "urlToImage": "https://www.teslarati.com/wp-content/uploads/2023/11/tesla-logo-interior-model-3-highland.jpeg",
+          "publishedAt": "2024-02-05T17:19:29Z",
+          "content": "Thousands of retail Tesla (NASDAQ:TSLA) investors have banded together to express their support of CEO Elon Musks and his 2018 compensation plan, which was rescinded by a Delaware judge last week. Th… [+4440 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "The Business of Fashion"
+          },
+          "author": "The Business of Fashion",
+          "title": "Gap Inc. Names Zac Posen Creative Director - The Business of Fashion",
+          "description": null,
+          "url": "https://www.businessoffashion.com/articles/retail/gap-new-creative-director-zac-posen-old-navy-athleta-banana-republic/",
+          "urlToImage": null,
+          "publishedAt": "2024-02-05T17:12:21Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Diana Olick",
+          "title": "Mortgage rates jump back over 7% as stronger economic data rolls in - CNBC",
+          "description": "Mortgage rates crossed over 7% for the first time since December, making homes less affordable just ahead of the spring housing market.",
+          "url": "https://www.cnbc.com/2024/02/05/mortgage-rates-back-over-7percent-as-stronger-economic-data-rolls-in.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/107328054-1698949208754-gettyimages-1623105388-US-ECONOMY-HOME_SALES.jpeg?v=1698949282&w=1920&h=1080",
+          "publishedAt": "2024-02-05T17:07:18Z",
+          "content": "The average rate on the popular 30-year fixed mortgage crossed over 7% on Monday for the first time since December, hitting 7.04%, according to Mortgage News Daily.\r\nIt comes after the rate took the … [+3009 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "MarketWatch"
+          },
+          "author": "James Rogers",
+          "title": "AMC's stock slides again as original meme stock hits another all-time low - MarketWatch",
+          "description": "Shares of movie-theater chain and original meme-stock darling AMC have been clobbered recently",
+          "url": "https://www.marketwatch.com/story/amcs-stock-slides-again-as-original-meme-stock-hits-another-all-time-low-31cd58e8",
+          "urlToImage": "https://images.mktw.net/im-98702256/social",
+          "publishedAt": "2024-02-05T16:59:00Z",
+          "content": "Shares of AMC Entertainment Holdings Inc. hit another intraday low Monday and are on pace to register another all-time closing low. \r\nThe stock, which is down 7.8%, traded as low as $3.69, a new all-… [+1363 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Samantha Subin, Jesse Pound",
+          "title": "Stock market today: Live updates - CNBC",
+          "description": "Stocks fell Monday as Treasury yields spiked higher on concerns the Federal Reserve may not cut rates as much as expected.",
+          "url": "https://www.cnbc.com/2024/02/04/stock-market-live-updates.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/107367057-1706715548662-gettyimages-1967855530-AFP_34HB8TN.jpeg?v=1706715908&w=1920&h=1080",
+          "publishedAt": "2024-02-05T16:56:00Z",
+          "content": "The U.S. Federal Reserve is in no need to be in a \"rush\" to cut interest rates, according to JPMorgan Asset Management as more economic data pointed to a robust U.S. economy.\r\nFederal Reserve Chair J… [+1137 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Investor's Business Daily"
+          },
+          "author": "Investor's Business Daily",
+          "title": "Nvidia Stock Spikes To Record High After Goldman Sachs Endorsement - Investor's Business Daily",
+          "description": null,
+          "url": "https://www.investors.com/news/technology/nvidia-stock-spikes-to-record-high-after-goldman-sachs-report/",
+          "urlToImage": null,
+          "publishedAt": "2024-02-05T16:33:00Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": "usa-today",
+              "name": "USA Today"
+          },
+          "author": "Sara Chernikoff",
+          "title": "These are the largest Black-owned businesses in America - USA TODAY",
+          "description": "An estimated 161,031 Black or African American-owned businesses were in operation in 2022, an increase from 2020.",
+          "url": "https://www.usatoday.com/story/money/2024/02/04/largest-black-owned-businesses-in-america/72410755007/",
+          "urlToImage": "https://www.usatoday.com/gcdn/media/2020/06/19/USATODAY/usatsports/ghows-PA-200619013-27d48791.jpg?crop=3696,2079,x0,y188&width=3200&height=1800&format=pjpg&auto=webp",
+          "publishedAt": "2024-02-05T16:18:26Z",
+          "content": "About six-in-10 Black adults say supporting Black businesses is an extremely or very effective strategy for gaining movement towards equality in the U.S., according to a survey from the Pew Research … [+2856 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Yahoo Entertainment"
+          },
+          "author": null,
+          "title": "Commercial real estate a 'manageable' problem but some banks will close: Powell - Yahoo Finance",
+          "description": null,
+          "url": "https://finance.yahoo.com/news/commercial-real-estate-a-manageable-problem-but-some-banks-will-close-powell-161201936.html",
+          "urlToImage": null,
+          "publishedAt": "2024-02-05T16:12:01Z",
+          "content": "Si vous cliquez sur « Tout accepter », nos partenaires (y compris 243 qui font partie du Cadre de transparence et de consentement dIAB) et nous utiliserons également des témoins et vos données person… [+982 chars]"
+      },
+      {
+          "source": {
+              "id": "techcrunch",
+              "name": "TechCrunch"
+          },
+          "author": "Sarah Perez",
+          "title": "Snapchat’s parent lays off 10% of workforce in order to ‘reduce hierarchy,’ says company - TechCrunch",
+          "description": "Snapchat maker Snap is the latest tech company to conduct layoffs with its newly announced plans for a 10% workforce reduction, the company said on",
+          "url": "https://techcrunch.com/2024/02/05/snapchats-parent-lays-off-10-of-workforce-in-order-to-reduce-hierarchy-says-company/",
+          "urlToImage": "https://techcrunch.com/wp-content/uploads/2021/01/GettyImages-1172921170.jpg?w=1024",
+          "publishedAt": "2024-02-05T16:07:30Z",
+          "content": "Snapchat maker Snap is the latest tech company to conduct layoffs with its newly announced plans for a 10% workforce reduction, the company said on Monday. The layoffs would impact roughly 500-plus e… [+3597 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "MarketWatch"
+          },
+          "author": "Philip van Doorn",
+          "title": "Is Meta now a value stock? - MarketWatch",
+          "description": "A case can be made that Meta is the best value among the ‘Magnificent Seven’ stocks",
+          "url": "https://www.marketwatch.com/story/is-meta-now-a-value-stock-008b7f80",
+          "urlToImage": "https://images.mktw.net/im-14136247/social",
+          "publishedAt": "2024-02-05T16:02:00Z",
+          "content": "Shares of Meta Platforms Inc. soared on Friday as the company reported a blowout fourth quarter and introduced a dividend. That raised the question of whether or not Meta can be called a value stock.… [+13033 chars]"
+      },
+      {
+          "source": {
+              "id": "ars-technica",
+              "name": "Ars Technica"
+          },
+          "author": "Benj Edwards",
+          "title": "Deepfake scammer walks off with $25 million in first-of-its-kind AI heist - Ars Technica",
+          "description": "Hong Kong firm tricked by simulation of multiple real people in video chat, including voices.",
+          "url": "https://arstechnica.com/information-technology/2024/02/deepfake-scammer-walks-off-with-25-million-in-first-of-its-kind-ai-heist/",
+          "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2024/02/ai_fraud_hero_1-760x380.jpg",
+          "publishedAt": "2024-02-05T15:54:49Z",
+          "content": "110\r\nOn Sunday, a report from the South China Morning Post revealed a significant financial loss suffered by a multinational company's Hong Kong office, amounting to HK$200 million (US$25.6 million),… [+3225 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Search Engine Land"
+          },
+          "author": "Nicola Agius",
+          "title": "Google 'cannot proceed with third-party cookie deprecation' - Search Engine Land",
+          "description": "Competition concerns about Google's Privacy Sandbox must be addressed before third-party cookies can be deprecated.",
+          "url": "https://searchengineland.com/google-cannot-proceed-third-party-cookie-deprecation-437212",
+          "urlToImage": "https://searchengineland.com/wp-content/seloads/2024/01/broken-google-logo-1920.jpg",
+          "publishedAt": "2024-02-05T15:34:00Z",
+          "content": "Google cannot proceed with third-party cookie deprecation until it resolves concerns raised by the UK’s Competition and Markets Authority (CMA).\r\nThe search engine needs to do more to address issues … [+2749 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Investor's Business Daily"
+          },
+          "author": "Investor's Business Daily",
+          "title": "Estee Lauder Rockets On Earnings, Restructuring Plan; ELF Beauty Hits New High With Results Due - Investor's Business Daily",
+          "description": null,
+          "url": "https://www.investors.com/news/estee-lauder-rockets-on-earnings-restructuring-plan-elf-beauty-hits-new-high-with-results-due/",
+          "urlToImage": null,
+          "publishedAt": "2024-02-05T15:30:00Z",
+          "content": null
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "CoinDesk"
+          },
+          "author": "Krisztian  Sandor",
+          "title": "Bitcoin ETFs See $700M Net Inflows as BlackRock, Fidelity Gains Offset GBTC Outflows: CoinShares - CoinDesk",
+          "description": "New U.S. bitcoin ETFs have amassed $7.7 billion in funds since debut, offsetting the $6 billion outflows from incumbents, according to CoinShares data.",
+          "url": "https://www.coindesk.com/markets/2024/02/05/bitcoin-etfs-see-700m-net-inflows-as-blackrock-fidelity-gains-offset-gbtc-outflows-coinshares/",
+          "urlToImage": "https://www.coindesk.com/resizer/V3laLOxC9q32xkwisrhswtrirWI=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/XQ6CKMOW2VBNLEEZOBQEV2U5LE.jpg",
+          "publishedAt": "2024-02-05T15:27:00Z",
+          "content": "Bitcoin-focused investment vehicles received more than $700 million in fresh money last week as inflows to new spot bitcoin (BTC) exchange-traded funds (ETFs) offset the abating outflows from Graysca… [+1414 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Fox Business"
+          },
+          "author": "Megan Henney",
+          "title": "Fed's Powell says the 'time is coming' to cut interest rates - Fox Business",
+          "description": "Federal Reserve Chair Jerome Powell said Sunday that policymakers are trying to balance the risks between cutting interest rates too late and too soon.",
+          "url": "https://www.foxbusiness.com/economy/feds-powell-says-time-is-coming-cut-interest-rates",
+          "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/03/0/0/powell-13.jpg?ve=1&tl=1",
+          "publishedAt": "2024-02-05T15:24:00Z",
+          "content": "Federal Reserve Chair Jerome Powell said the U.S. central bank remains on track to cut interest rates later this year so long as inflation continues to fall. \r\nIn an interview with CBS' \"60 Minutes\" … [+3608 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "CNBC"
+          },
+          "author": "Natasha Turak",
+          "title": "Turkey's new central bank governor, formerly at Amazon and New York Fed, seen as a 'credible choice' - CNBC",
+          "description": "With Turkey's inflation at 65%, the 42-year-old economist has his work cut out for him.",
+          "url": "https://www.cnbc.com/2024/02/05/turkeys-new-central-bank-governor-seen-as-a-credible-choice.html",
+          "urlToImage": "https://image.cnbcfm.com/api/v1/image/107369028-1707144009158-gettyimages-1977294556-AA_04022024_1516553.jpeg?v=1707144046&w=1920&h=1080",
+          "publishedAt": "2024-02-05T15:17:27Z",
+          "content": "Newly appointed Governor of Turkish Central Bank, Fatih Karahan is seen in Ankara, Turkey on February 04, 2024. \r\nTurkey's newly appointed central bank governor, Fatih Karahan, has his work cut out f… [+4806 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "Tipranks.com"
+          },
+          "author": "Marty Shtrubel",
+          "title": "'Stay Away,' Says Citi About Palantir Stock Ahead of Earnings - TipRanks.com - TipRanks",
+          "description": "Earnings season might have reached a climax last week with the quarterly readouts of various tech giants, but that doesn’t mean there aren’t any interesting reports...",
+          "url": "https://www.tipranks.com/news/stay-away-says-citi-about-palantir-stock-ahead-of-earnings",
+          "urlToImage": "https://blog.tipranks.com/wp-content/uploads/2024/02/PLTR-0205-750x406.jpg",
+          "publishedAt": "2024-02-05T15:07:27Z",
+          "content": "Earnings season might have reached a climax last week with the quarterly readouts of various tech giants, but that doesn’t mean there aren’t any interesting reports left in the pipeline. Today after … [+2607 chars]"
+      },
+      {
+          "source": {
+              "id": null,
+              "name": "MarketWatch"
+          },
+          "author": "Steve Goldstein, , Tomi Kilgore",
+          "title": "Tesla’s stock dive means the EV maker is now worth less than Broadcom - MarketWatch",
+          "description": "The stock’s selloff, following a report that it was losing a large customer in Germany, fueled a broad, sharp selloff in shares of EV makers",
+          "url": "https://www.marketwatch.com/story/sap-to-stop-using-tesla-for-company-fleet-report-says-54627dbb",
+          "urlToImage": "https://images.mktw.net/im-16513349/social",
+          "publishedAt": "2024-02-05T15:02:00Z",
+          "content": "Shares of Tesla Inc. dove toward a nine-month low Monday to fuel a broad selloff in the electric-vehicle sector, after a report that the EV giant was losing a large customer in Germany.The stock \r\n T… [+2891 chars]"
+      }
+  ]
+}
