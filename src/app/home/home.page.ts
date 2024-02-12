@@ -45,7 +45,6 @@ export class HomePage implements OnInit {
 
   constructor(public gestionServicioApi: MyserviceService) {}
 
-
   ngOnInit() {
     // Mediante el array de categorias, llamamos a la API una vez por cada categoría.
     this.categorias.forEach(miCategoria => {
@@ -60,22 +59,22 @@ export class HomePage implements OnInit {
 
     // En caso de bar-chart, realizamos una llamada al api por cada categoria que tenemos.
     if (this.tipoDeChartSeleccionado == "bar-chart") {
-      this.categorias.forEach(categoria => {
-        this.gestionServicioApi.cargarCategoria(categoria);
+      this.categorias.forEach(miCategoria => {
+        this.gestionServicioApi.cargarCategoria(miCategoria);
       });
     }
 
     // En caso de line-chart, realizamos una llamada al api por cada categoria que tenemos.
     if (this.tipoDeChartSeleccionado == "line-chart"){
-      this.categorias.forEach(categoria => {
-        this.gestionServicioApi.cargarCategoria(categoria);
+      this.categorias.forEach(miCategoria => {
+        this.gestionServicioApi.cargarCategoria(miCategoria);
       });
     }
 
     // En caso de pie-chart, realizamos una llamada al api por cada categoria que tenemos.
     if (this.tipoDeChartSeleccionado == "pie-chart"){
-      this.categorias.forEach(categoria => {
-        this.gestionServicioApi.cargarCategoria(categoria);
+      this.categorias.forEach(miCategoria => {
+        this.gestionServicioApi.cargarCategoria(miCategoria);
       });
     }
   }

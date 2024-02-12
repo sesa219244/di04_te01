@@ -3,12 +3,12 @@ import { Chart, ChartType } from 'chart.js/auto';
 import { MyserviceService } from 'src/app/services/myservice.service';
 
 @Component({
-  selector: 'app-bar-chart',
-  templateUrl: './bar-chart.component.html',
-  styleUrls: ['./bar-chart.component.scss'],
+  selector: 'app-barra-chart',
+  templateUrl: './barra-chart.component.html',
+  styleUrls: ['./barra-chart.component.scss'],
 })
 
-export class BarChartComponent  implements OnInit {
+export class BarraChartComponent  implements OnInit {
 
   public chart!: Chart;
 
@@ -52,9 +52,9 @@ export class BarChartComponent  implements OnInit {
       // Creamos un canvas
       const canvas = this.renderer.createElement('canvas');
       // Le añadimos una id al canvas
-      this.renderer.setAttribute(canvas, 'id', 'BarChart');
+      this.renderer.setAttribute(canvas, 'id', 'BarraChart');
       // Le añadimos el canvas al div con id "contenedor-barchart"
-      const container = this.el.nativeElement.querySelector('#contenedor-barchart');
+      const container = this.el.nativeElement.querySelector('#contenedor-barrachart');
       // Le añadimos el canvas al container
       this.renderer.appendChild(container, canvas);
 

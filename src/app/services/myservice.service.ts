@@ -112,19 +112,18 @@ export class MyserviceService {
       }
       });
 
-    } else {
-      //Realizamos la llamada api y la recogemos en un observable de tipo RootObject
-      let respuesta: Observable<RootObject> = this.ServicioRest.get<RootObject>(this.apiUrl + "/top-headlines?country=us&category=" + categoria + "&apiKey=" + this.apiKey);
-      console.log("respuesta: "+respuesta);
-      respuesta.subscribe( data => {
-        if (data && data.totalResults !== undefined) {
-          //Mediante datosSubject.next, avisamos a todos los suscriptores (en este caso datos$) de que hemos recibido un nuevo valor.
-          this.datosSubject.next({ categoria: categoria, totalResults: data.totalResults });
-        } else {
-          console.error('La propiedad totalResults no está definida en la respuesta:', data);
-        }
-      });
-    }
-  }
+    } else {}
 
+    /*Realizamos la llamada api y la recogemos en un observable de tipo RootObject
+    let respuesta: Observable<RootObject> = this.ServicioRest.get<RootObject>(this.apiUrl + "/top-headlines?country=us&category=" + categoria + "&apiKey=" + this.apiKey);
+    console.log("respuesta: "+respuesta);
+    respuesta.subscribe( data => {
+      if (data && data.totalResults !== undefined) {
+        //Mediante datosSubject.next, avisamos a todos los suscriptores (en este caso datos$) de que hemos recibido un nuevo valor.
+        this.datosSubject.next({ categoria: categoria, totalResults: data.totalResults });
+      } else {
+        console.error('La propiedad totalResults no está definida en la respuesta:', data);
+      }
+    });*/
+  }
 }
