@@ -17,15 +17,18 @@ export class BarChartComponent  implements OnInit {
   @Input() backgroundColorCat: string[] = [];
   @Input() borderColorCat: string[] = [];
 
+  // Creamos las vartiable ApiData para guardar el nombre y valor de las categorias
   public apiData: {
     categoria: string;
     totalResults: number
   } [] = [];
 
+
   constructor(private el: ElementRef, private renderer: Renderer2, private gestionServicioApi: MyserviceService) {}
 
   ngOnInit(): void {
     this.inicializarChart();
+
     // Nos suscribimos al observable de tipo BehaviorSubject y cuando este emita un valor, recibiremos una notificación con el nuevo valor.
     this.gestionServicioApi.datos$.subscribe((datos) => {
       if (datos != undefined) {
@@ -48,11 +51,12 @@ export class BarChartComponent  implements OnInit {
       borderWidth: number
     } [] = [];
 
+    // Si el char no está creado
     if (!this.chart) {
       // Creamos un canvas
       const canvas = this.renderer.createElement('canvas');
       // Le añadimos una id al canvas
-      this.renderer.setAttribute(canvas, 'id', 'BarChart');
+      this.renderer.setAttribute(canvas, 'id', 'bar-chart');
       // Le añadimos el canvas al div con id "contenedor-barchart"
       const container = this.el.nativeElement.querySelector('#contenedor-barchart');
       // Le añadimos el canvas al container
@@ -76,7 +80,6 @@ export class BarChartComponent  implements OnInit {
           plugins: {
             legend: {
               labels: {
-                boxWidth: 0,
                 font: {
                   size: 16,
                   weight: 'bold'
@@ -104,31 +107,32 @@ export class BarChartComponent  implements OnInit {
       }
     } = {};
 
+    // Hacemos un forEach para leer los datos que viene de la Api
     this.apiData.forEach((row: { categoria: string; totalResults: number }, index: number) => {
       const categoria = row.categoria;
-      console.log(categoria);
       const totalResults = row.totalResults;
-      console.log(totalResults);
-      console.log(index);
 
+      // Si todavía no se han pintado los datos de la categoría
       if (!datasetsByCompany[categoria]) {
         datasetsByCompany[categoria] = {
           label: 'Valores de ' + categoria,
-          data: [totalResults],
+          data: [],
           backgroundColor: [this.backgroundColorCat[index]],
           borderColor: [this.borderColorCat[index]],
           borderWidth: 1
         };
         console.log(datasetsByCompany);
-      } else {
-        datasetsByCompany[categoria].data[index] = totalResults;
-        datasetsByCompany[categoria].backgroundColor[index] = this.backgroundColorCat[index];
-        datasetsByCompany[categoria].borderColor[index] = this.borderColorCat[index];
-        console.log(datasetsByCompany);
       }
+
+      // Una vez establecidos los datos de la categoría lo que hacemos es darle los valores correspondientes
+      datasetsByCompany[categoria].data[index] = totalResults;
+      datasetsByCompany[categoria].backgroundColor[index] = this.backgroundColorCat[index];
+      datasetsByCompany[categoria].borderColor[index] = this.borderColorCat[index];
     });
 
+    // Para modificar los valores de la labels lo hacemos través de un map
     this.chart.data.labels = this.apiData.map((row: { categoria: string; totalResults: number }) => row.categoria);
+    // Para modificar el datasets, es muy importante hacer uso de Object.values.
     this.chart.data.datasets = Object.values(datasetsByCompany);
     // Actualizamos el chart con los nuevos valores cada vez que recibimos un valor.
     this.chart.update();

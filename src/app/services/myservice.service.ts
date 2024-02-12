@@ -7,6 +7,7 @@ import { RootObject } from '../interfaces/myinterface';
 @Injectable({
   providedIn: 'root'
 })
+
 export class MyserviceService {
 
   // Atributos para generar la consulta REST
@@ -28,6 +29,7 @@ export class MyserviceService {
 
   cargarCategoria(categoria: string) {
 
+    /* OPCION 1: USANDO FICHEROS
     if (categoria === "business") {
       let respuesta: Observable<RootObject> = this.ServicioRest.get<RootObject>("/assets/data/business.json");
       console.log("respuesta: "+respuesta);
@@ -112,9 +114,10 @@ export class MyserviceService {
       }
       });
 
-    } else {}
+    } else {}*/
 
-    /*Realizamos la llamada api y la recogemos en un observable de tipo RootObject
+    // OPCION 2: USANDO API REST
+    //Realizamos la llamada api y la recogemos en un observable de tipo RootObject
     let respuesta: Observable<RootObject> = this.ServicioRest.get<RootObject>(this.apiUrl + "/top-headlines?country=us&category=" + categoria + "&apiKey=" + this.apiKey);
     console.log("respuesta: "+respuesta);
     respuesta.subscribe( data => {
@@ -124,6 +127,6 @@ export class MyserviceService {
       } else {
         console.error('La propiedad totalResults no está definida en la respuesta:', data);
       }
-    });*/
+    });
   }
 }

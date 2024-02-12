@@ -15,8 +15,11 @@ export class PieChartComponent  implements OnInit {
   @Input() tipoDeChartSeleccionado: string = "";
   @Input() backgroundColorCat: string[] = [];
   @Input() borderColorCat: string[] = [];
+
+  // Creamos las vartiables para guardar el nombre y valor de las categorias
   @Input() categorias: string[] = [];
   @Input() datosCategorias: number[] = [];
+
 
   constructor(private el: ElementRef, private renderer: Renderer2, private gestionServicioApi: MyserviceService) {}
 
@@ -62,7 +65,7 @@ export class PieChartComponent  implements OnInit {
 
     // Creamos un canvas
     const canvas = this.renderer.createElement('canvas');
-    this.renderer.setAttribute(canvas, 'id', 'PieChart');
+    this.renderer.setAttribute(canvas, 'id', 'pie-chart');
 
     // Añadimos el canvas al div con id "contenedor-piechart"
     const container = this.el.nativeElement.querySelector('#contenedor-piechart');

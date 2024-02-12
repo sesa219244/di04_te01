@@ -58,21 +58,21 @@ export class HomePage implements OnInit {
     this.tipoDeChartSeleccionado = event.detail.value;
 
     // En caso de bar-chart, realizamos una llamada al api por cada categoria que tenemos.
-    if (this.tipoDeChartSeleccionado == "bar-chart") {
+    if (this.tipoDeChartSeleccionado === "bar-chart") {
       this.categorias.forEach(miCategoria => {
         this.gestionServicioApi.cargarCategoria(miCategoria);
       });
     }
 
     // En caso de line-chart, realizamos una llamada al api por cada categoria que tenemos.
-    if (this.tipoDeChartSeleccionado == "line-chart"){
+    if (this.tipoDeChartSeleccionado === "line-chart"){
       this.categorias.forEach(miCategoria => {
         this.gestionServicioApi.cargarCategoria(miCategoria);
       });
     }
 
     // En caso de pie-chart, realizamos una llamada al api por cada categoria que tenemos.
-    if (this.tipoDeChartSeleccionado == "pie-chart"){
+    if (this.tipoDeChartSeleccionado === "pie-chart"){
       this.categorias.forEach(miCategoria => {
         this.gestionServicioApi.cargarCategoria(miCategoria);
       });

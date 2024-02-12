@@ -13,11 +13,13 @@ export class LineChartComponent  implements OnInit {
 
   // Creamos las variables que recibiremos por parámetros
   @Input() tipoDeChartSeleccionado: string = "";
+
+  // Creamos las vartiables para guardar el nombre y valor de las categorias
   @Input() categorias: string[] = [];
   @Input() datosCategorias: number[] = [];
 
-  constructor(private el: ElementRef, private renderer: Renderer2, private gestionServicioApi: MyserviceService) {}
 
+  constructor(private el: ElementRef, private renderer: Renderer2, private gestionServicioApi: MyserviceService) {}
 
   ngOnInit(): void {
     this.inicializarChart();
@@ -66,7 +68,7 @@ export class LineChartComponent  implements OnInit {
 
     // Creamos un canvas
     const canvas = this.renderer.createElement('canvas');
-    this.renderer.setAttribute(canvas, 'id', 'LineChart');
+    this.renderer.setAttribute(canvas, 'id', 'line-chart');
 
     // Añadimos el canvas al div con id "contenedor-linechart"
     const container = this.el.nativeElement.querySelector('#contenedor-linechart');
