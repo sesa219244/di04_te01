@@ -32,8 +32,12 @@ export class BarChartComponent  implements OnInit {
     // Nos suscribimos al observable de tipo BehaviorSubject y cuando este emita un valor, recibiremos una notificación con el nuevo valor.
     this.gestionServicioApi.datos$.subscribe((datos) => {
       if (datos != undefined) {
-        // Cuando recibimos un valor actualizamos el array apiData, para guardar la categoria y su totalResults en las mismas posiciones del array.
-        this.apiData.push(datos);
+        // Creamos una variable donde vemos si existe la categoria
+        let buscarCategoria = this.apiData.find(unDato => unDato.categoria === datos.categoria);
+        // Si no existe la categoria la añadimos a la apiData
+        if (!buscarCategoria) {
+          this.apiData.push(datos);
+        }
         console.log("apiData", this.apiData);
         this.actualizarChart();
       }

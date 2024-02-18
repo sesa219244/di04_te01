@@ -7,6 +7,7 @@ import { MyserviceService } from 'src/app/services/myservice.service';
   templateUrl: './line-chart.component.html',
   styleUrls: ['./line-chart.component.scss'],
 })
+
 export class LineChartComponent  implements OnInit {
 
   public chart!: Chart;
@@ -18,6 +19,12 @@ export class LineChartComponent  implements OnInit {
   @Input() categorias: string[] = [];
   @Input() datosCategorias: number[] = [];
 
+  // Creamos las vartiable ApiData para guardar el nombre y valor de las categorias
+  public apiData: {
+    categoria: string;
+    totalResults: number
+  } [] = [];
+
 
   constructor(private el: ElementRef, private renderer: Renderer2, private gestionServicioApi: MyserviceService) {}
 
@@ -27,9 +34,17 @@ export class LineChartComponent  implements OnInit {
    // Nos suscribimos al observable de tipo BehaviorSubject y cuando este emita un valor, recibiremos una notificación con el nuevo valor.
     this.gestionServicioApi.datos$.subscribe((datos) => {
       if (datos != undefined) {
-        // Cuando recibimos un valor actualizamos los arrays de nombre y valor de categorias, para guardar el nombre y su valor en las mismas posiciones del array.
-        this.categorias.push(datos.categoria);
-        this.datosCategorias.push(datos.totalResults);
+        // Creamos una variable donde vemos si existe la categoria
+        let buscarCategoria = this.apiData.find(unDato => unDato.categoria === datos.categoria);
+        // Si no existe la categoria la añadimos a la apiData
+        if (!buscarCategoria) {
+            this.apiData.push(datos);
+        }
+        // Recorremos un forEach para cargar las categorias y datosCategorias
+        this.apiData.forEach((row: { categoria: string; totalResults: number }, index: number) => {
+          this.categorias[index] = row.categoria;
+          this.datosCategorias[index] = row.totalResults;
+         });
         // Actualizamos el chart con los nuevos valores cada vez que recibimos un valor.
         this.chart.update();
       }
