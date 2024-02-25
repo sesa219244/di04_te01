@@ -12,18 +12,14 @@ export class LineChartComponent  implements OnInit {
 
   public chart!: Chart;
 
-  // Creamos las variables que recibiremos por parámetros
-  @Input() tipoDeChartSeleccionado: string = "";
-
-  // Creamos las vartiables para guardar el nombre y valor de las categorias
+  // Creamos las vartiable ApiData para guardar el nombre y valor de las categorias
   @Input() categorias: string[] = [];
   @Input() datosCategorias: number[] = [];
-
-  // Creamos las vartiable ApiData para guardar el nombre y valor de las categorias
   public apiData: {
     categoria: string;
     totalResults: number
   } [] = [];
+
 
 
   constructor(private el: ElementRef, private renderer: Renderer2, private gestionServicioApi: MyserviceService) {}
@@ -56,7 +52,7 @@ export class LineChartComponent  implements OnInit {
     // Datos
     let data = null;
 
-    if (this.tipoDeChartSeleccionado === "line-chart" || this.tipoDeChartSeleccionado === "bar-chart") {
+    if (!this.chart) {
       data = {
         labels: this.categorias,
         datasets: [{

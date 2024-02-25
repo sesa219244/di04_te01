@@ -13,15 +13,12 @@ export class PieChartComponent  implements OnInit {
   public chart!: Chart;
 
   // Creamos las variables que recibiremos por parámetros
-  @Input() tipoDeChartSeleccionado: string = "";
   @Input() backgroundColorCat: string[] = [];
   @Input() borderColorCat: string[] = [];
 
-  // Creamos las vartiables para guardar el nombre y valor de las categorias
+  // Creamos las vartiable ApiData para guardar el nombre y valor de las categorias
   @Input() categorias: string[] = [];
   @Input() datosCategorias: number[] = [];
-
-  // Creamos las vartiable ApiData para guardar el nombre y valor de las categorias
   public apiData: {
     categoria: string;
     totalResults: number
@@ -58,7 +55,7 @@ export class PieChartComponent  implements OnInit {
     // Datos
     let data = null;
 
-    if (this.tipoDeChartSeleccionado === "pie-chart" || this.tipoDeChartSeleccionado === "bar-chart") {
+    if (!this.chart) {
       data = {
         labels: this.categorias,
         datasets: [{

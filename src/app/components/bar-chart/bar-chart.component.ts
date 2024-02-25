@@ -13,7 +13,6 @@ export class BarChartComponent  implements OnInit {
   public chart!: Chart;
 
   // Creamos las variables que recibiremos por parámetros
-  @Input() tipoDeChartSeleccionado: string = "";
   @Input() backgroundColorCat: string[] = [];
   @Input() borderColorCat: string[] = [];
 

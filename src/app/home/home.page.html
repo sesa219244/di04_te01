@@ -16,7 +16,6 @@
       <ion-row>
         <ion-col size="6">
           <app-bar-chart
-            [tipoDeChartSeleccionado]="tipoDeChartSeleccionado"
             [backgroundColorCat]="backgroundColorCat"
             [borderColorCat]="borderColorCat"
           ></app-bar-chart>
@@ -24,15 +23,12 @@
         <ion-col size="6">
           <ion-row>
             <ion-col size="12">
-              <app-line-chart
-                [tipoDeChartSeleccionado]="tipoDeChartSeleccionado"
-              ></app-line-chart>
+              <app-line-chart></app-line-chart>
             </ion-col>
           </ion-row>
           <ion-row>
             <ion-col size="12">
               <app-pie-chart
-                [tipoDeChartSeleccionado]="tipoDeChartSeleccionado"
                 [backgroundColorCat]="backgroundColorCat"
                 [borderColorCat]="borderColorCat"
               ></app-pie-chart>
@@ -45,13 +41,11 @@
   <!-- Llamamos directamente al componente line-chart-->
   <app-line-chart
     *ngIf="tipoDeChartSeleccionado === 'line-chart'"
-    [tipoDeChartSeleccionado]="tipoDeChartSeleccionado"
   ></app-line-chart>
 
   <!-- Llamamos directamente al componente pie-chart-->
   <app-pie-chart
     *ngIf="tipoDeChartSeleccionado === 'pie-chart'"
-    [tipoDeChartSeleccionado]="tipoDeChartSeleccionado"
     [backgroundColorCat]="backgroundColorCat"
     [borderColorCat]="borderColorCat"
   ></app-pie-chart>

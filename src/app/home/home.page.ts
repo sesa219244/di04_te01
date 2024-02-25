@@ -57,26 +57,11 @@ export class HomePage implements OnInit {
     // Recogemos el tipo de chart (bar-chart, line-chart o pie-chart), mediante event.detail.value
     this.tipoDeChartSeleccionado = event.detail.value;
 
-    // En caso de bar-chart, realizamos una llamada al api por cada categoria que tenemos.
-    if (this.tipoDeChartSeleccionado === "bar-chart") {
-      this.categorias.forEach(miCategoria => {
-        this.gestionServicioApi.cargarCategoria(miCategoria);
-      });
-    }
-
-    // En caso de line-chart, realizamos una llamada al api por cada categoria que tenemos.
-    if (this.tipoDeChartSeleccionado === "line-chart"){
-      this.categorias.forEach(miCategoria => {
-        this.gestionServicioApi.cargarCategoria(miCategoria);
-      });
-    }
-
-    // En caso de pie-chart, realizamos una llamada al api por cada categoria que tenemos.
-    if (this.tipoDeChartSeleccionado === "pie-chart"){
+    // En caso de bar-chart ó line-chart ó pie-chart, realizamos una llamada al api por cada categoria que tenemos.
+    if ("bar-chart" || "line-chart" || "pie-chart" === this.tipoDeChartSeleccionado) {
       this.categorias.forEach(miCategoria => {
         this.gestionServicioApi.cargarCategoria(miCategoria);
       });
     }
   }
-
 }
